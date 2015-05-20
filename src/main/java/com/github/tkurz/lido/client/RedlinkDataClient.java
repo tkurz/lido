@@ -1,6 +1,6 @@
 package com.github.tkurz.lido.client;
 
-import com.github.tkurz.lido.EvaluationException;
+import com.github.tkurz.lido.exception.EvaluationException;
 import com.github.tkurz.lido.core.DataClient;
 import io.redlink.sdk.RedLink;
 import io.redlink.sdk.impl.data.model.LDPathResult;

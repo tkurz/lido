@@ -1,6 +1,6 @@
 package com.github.tkurz;
 
-import com.github.tkurz.lido.EvaluationException;
+import com.github.tkurz.lido.exception.EvaluationException;
 import com.github.tkurz.lido.client.RedlinkDataClient;
 import com.github.tkurz.lido.core.DataClient;
 import com.github.tkurz.lido.core.LDPathMapper;

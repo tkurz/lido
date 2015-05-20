@@ -1,13 +1,12 @@
 package com.github.tkurz.lido.core;
 
-import com.github.tkurz.lido.EvaluationException;
+import com.github.tkurz.lido.exception.EvaluationException;
 import org.apache.marmotta.client.model.rdf.RDFNode;
 import org.apache.marmotta.client.model.rdf.URI;
 import org.apache.marmotta.client.model.sparql.SPARQLResult;
 
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * ...

@@ -1,6 +1,6 @@
 package com.github.tkurz.lido.core;
 
-import com.github.tkurz.lido.EvaluationException;
+import com.github.tkurz.lido.exception.EvaluationException;
 import com.github.tkurz.lido.extension.LangString;
 import org.apache.marmotta.client.model.rdf.Literal;
 import org.apache.marmotta.client.model.rdf.RDFNode;
