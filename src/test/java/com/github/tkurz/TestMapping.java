@@ -53,7 +53,6 @@ public class TestMapping {
         Assert.assertTrue(organizationPage2.hasPrevious());
         Assert.assertFalse(organizationPage2.hasNext());
 
-
     }
 
 }

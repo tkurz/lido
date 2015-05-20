@@ -11,10 +11,10 @@ import com.github.tkurz.lido.core.Type;
 @Type("http://schema.org/Person")
 public class Employee {
 
-    @Path("<http://schema.org/age>")
-    public int age;
-
     @Path("<http://schema.org/name>")
     public String name;
+
+    @Path("<http://schema.org/weight>")
+    public double weight;
 
 }

@@ -181,7 +181,7 @@ public class LDPathMapper<T> {
         }
     }
 
-    public Set<T> findAll(Set<URI> uris) throws EvaluationException {
+    public Set<T> findSome(Set<URI> uris) throws EvaluationException {
         HashSet<T> result = new HashSet<>();
         for(URI uri : uris) {
             result.add(findOne(uri));
