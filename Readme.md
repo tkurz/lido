@@ -5,7 +5,7 @@ With Lido you can easily map Linked Data resources to Java Objects.
 
 Example
 -------
-Create a POJOs with annotations e.g. Employee and Organization.
+Create POJOs with annotations e.g. Employee and Organization.
 
 ```
 @Type("http://schema.org/Person")
@@ -38,7 +38,7 @@ public class Organization {
 }
 ```
 
-Create an LDPathMapper with a Class that implements DataClient. In this case, we want to get the organizations (that also includes all the Employee objects, as you can see).
+Create an LDPathMapper with a Class that implements DataClient. E.g. we want to get the organizations (that also includes all the Employee objects, as you can see).
 You have several access methods like ```findAll```, ```findPage(size,number)```, ```findOne(uri)``` and ```findSome(list:uri))```.
 ```
     //create mapper for organizations
@@ -47,7 +47,7 @@ You have several access methods like ```findAll```, ```findPage(size,number)```,
     //get all organizations
     Set<Organization> all_organizations = organizations.findAll();
 
-    //get pages organizations
+    //get organizations paged
     Page<Organization> paged_organizations = organizations.findPage(1,3);
 
     //create mapper for employees
