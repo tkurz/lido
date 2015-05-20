@@ -16,6 +16,7 @@ public class Employee {
 
     @Path("<http://schema.org/description>")
     public LangString langString;
+    //LangString allows to map all language strings in one Object
 
     @Path("<http://schema.org/weight>")
     public double weight;
